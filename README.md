@@ -26,7 +26,7 @@ We explore two primary datasets:
 
 - We delve into app categories to discern market trends and answer questions such as category dominance and the prevalence of different app types.
 
-4. ## App Ratings Distribution:
+4. ### App Ratings Distribution:
 - Analyzing app ratings across categories to understand overall performance and user sentiment.
 
 5. ### App Size and Price Analysis:
