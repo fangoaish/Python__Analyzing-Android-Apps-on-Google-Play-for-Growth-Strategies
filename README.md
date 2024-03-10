@@ -2,6 +2,10 @@
 
 The ubiquity of mobile apps has led to a surge in their development, presenting both opportunities and challenges for app creators. In this project, we conduct a comprehensive analysis of the Android app market by scrutinizing over ten thousand apps available on Google Play across various categories. Our goal is to extract actionable insights from the data to devise strategies aimed at enhancing growth and retention in the competitive app ecosystem.
 
+![image](https://github.com/fangoaish/Python__Analyzing-Android-Apps-on-Google-Play-for-Growth-Strategies/assets/51399519/458e4e02-4904-4ad5-86a9-ec51e6d31c86)
+
+
+
 ## Data Overview:
 
 We explore two primary datasets:
