@@ -20,6 +20,21 @@ We explore two primary datasets:
 
 - One of the main challenges we encounter is data cleaning, as the datasets may contain inconsistencies, missing values, or special characters in numerical columns like Installs and Price.
 - We address these issues by standardizing the format of numerical columns, removing special characters, and handling missing data appropriately.
+```ruby
+# List of characters to remove
+chars_to_remove = ['+', ',', '$']
+# List of column names to clean
+cols_to_clean = ['Installs', 'Price']
+
+# Use Loop to clean the data with an empty string'' and not a space character' '
+# Loop for each column in cols_to_clean
+for col in cols_to_clean:
+    # Loop for each char in chars_to_remove
+    for char in chars_to_remove:
+        # Replace the character with an empty string
+        apps[col] = apps[col].apply(lambda x: x.replace(char, ''))
+     
+```
 
 2. ### Correcting Data Types:
 
